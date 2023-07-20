@@ -1,4 +1,4 @@
-# Sorting Algorithms Project Readme
+# Sorting Algorithms Project
 
 This project focuses on implementing and understanding various sorting algorithms. Sorting algorithms are essential in computer science and help arrange elements in a specific order, such as ascending or descending. The goal of this project is to gain knowledge about different sorting techniques and how to choose the best one for a given input.
 
