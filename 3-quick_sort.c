@@ -23,6 +23,7 @@ void swap_integers(int *n, int *m)
 * @array: array to be split
 * @low: left side of array
 * @high: rigth side of array
+* @size: size of array
 *
 * Return: Returns the index of the pivot
 */
@@ -45,7 +46,7 @@ int partition(int array[], int low, int high,
 		if (array[j] <= pivot_value)
 		{
 			i++;
-			if(i != j)
+			if (i != j)
 			{
 				swap_integers(&array[i], &array[j]);
 				print_array(array, size);
@@ -54,7 +55,7 @@ int partition(int array[], int low, int high,
 	}
 
 	/* Place the pivot in its correct position */
-	if(i + 1 != high)
+	if (i + 1 != high)
 	{
 		swap_integers(&array[i + 1], &array[high]);
 		print_array(array, size);
@@ -68,6 +69,7 @@ int partition(int array[], int low, int high,
 * @array: array to be sorted.
 * @low: left side of array
 * @high: rigth side of array
+* @size: size of array
 *
 */
 
